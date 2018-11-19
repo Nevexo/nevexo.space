@@ -33,13 +33,19 @@ const failback = {
 }
 
 const fetch_endpoint = (endpoint, callback) => {
-    fetch("https://api.nevexo.space" + endpoint, {"Content-Type": "Application/JSON", "mode": "no-cors"})
+    fetch("https://api.nevexo.space" + endpoint, {headers: {"Content-Type": "Application/JSON"}})
         .then(function(response) {
-            return response.json();
+            if (response.status == 200) {
+                return response.json();c
+            }else {
+                callback(false)
+            }
         })
         .then(function(json) {
             console.log(JSON.stringify(json));
             callback(json)
+        }).catch(() => {
+            callback(false)
         });
 }
 
@@ -51,7 +57,7 @@ const update_frontend = (obj) => {
         </span>
         <span>{service_name}</span>
     </a>`
-    let content = ""; 
+    let content = "";
 
     for (let service_name in obj) {
         if (obj.hasOwnProperty(service_name)) {
@@ -71,8 +77,25 @@ const update_frontend = (obj) => {
 document.onreadystatechange = (state) => {
     document.addEventListener("DOMContentLoaded", () => {
         // Run failback - possibly change this later?
-        update_frontend({"Loading": {"fa_icon": "fas fa-ellipsis-h", "url": ""}})
-        // Super-temp till I add CORS support:
-        setTimeout(() => {update_frontend(failback)}, 600)
+        update_frontend({"Loading": {"fa_icon": "fas fa-ellipsis-h", "url": ""}}) //Show loading... thing-o
+        // Super-temp till I add CORS support:         fetch_endpoint("/social/all", (res) => {
+            if (res == false) {
+                update_frontend(failback)
+                document.getElementById("api_unavailable").hidden = false // Show warning message
+            }else {
+                // Hope & pray it worked
+                // Create the object:
+                let obj = {}
+                for (let service_name in res) {
+                    if (res.hasOwnProperty(service_name)) {
+                        let service = res[service_name]
+                        if (typeof service == "object") {
+                            if (!service.hidden) {obj[service_name] = service}
+                        }
+                    }
+                }
+                update_frontend(obj)
+            }
+        })
     });
 }
