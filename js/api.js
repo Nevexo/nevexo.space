@@ -63,6 +63,9 @@ const update_frontend = (obj) => {
         if (obj.hasOwnProperty(service_name)) {
             let service = obj[service_name]
             console.log("[SRV] Adding: " + service_name)
+            if (service["friendly_name"] != undefined) [
+                service_name = service["friendly_name"]
+            ]
             let dom = base
                 dom = dom.replace("{service_name}", service_name)
                 dom = dom.replace("{service_fa_icon}", service.fa_icon)
@@ -78,7 +81,18 @@ document.onreadystatechange = (state) => {
     document.addEventListener("DOMContentLoaded", () => {
         // Run failback - possibly change this later?
         update_frontend({"Loading": {"fa_icon": "fas fa-ellipsis-h", "url": ""}}) //Show loading... thing-o
-        // Super-temp till I add CORS support:         fetch_endpoint("/social/all", (res) => {
+
+        success = false
+
+        setTimeout(() => {
+            // Display failback after 2 seconds (just incase fetch fails entirely.)
+            if (!success) {
+                update_frontend(failback)
+                document.getElementById("api_unavailable").hidden = false // Show warning message
+            }
+        }, 2000)
+        
+        fetch_endpoint("/social/all", (res) => {
             if (res == false) {
                 update_frontend(failback)
                 document.getElementById("api_unavailable").hidden = false // Show warning message
@@ -94,6 +108,7 @@ document.onreadystatechange = (state) => {
                         }
                     }
                 }
+                success = true
                 update_frontend(obj)
             }
         })
