@@ -1,0 +1,48 @@
+body {
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0.5px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 500; 
+}
+
+p {
+    padding-top: 3px;
+    font-size: .9em;
+}
+
+a {
+    color: rgb(31, 118, 233);
+    text-decoration: none;
+}
+
+#information {
+    margin-top: 30px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+.section-heading {
+    font-weight: 500;
+}
+
+.footer {
+    margin-top: 2em;
+    color: rgb(121, 121, 121);
+}
