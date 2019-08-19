@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/nevexo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nevexo.space
+  * I am nevexo (https://keybase.io/nevexo) on keybase.
+  * I have a public key with fingerprint C6B6 DDA6 95BC 6219 EDAD  2616 4757 5A94 FBDF DAC0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012061001b641096aecd307b3b440a706e9200c2874e97d477517d032b5fd82b148e0a",
+      "fingerprint": "c6b6dda695bc6219edad261647575a94fbdfdac0",
+      "host": "keybase.io",
+      "key_id": "47575a94fbdfdac0",
+      "kid": "01010952a2435a7ffafd4a5ab3494861ab8b33de5c4c31b13787148db8ad7881ffa80a",
+      "uid": "c2e853b7783b309a44b743d4594d8819",
+      "username": "nevexo"
+    },
+    "merkle_root": {
+      "ctime": 1557614684,
+      "hash_meta": "e09b9c0b2ea46e218dcefcbfae064415c34c9c4efc3769c89afc4115a90568ac",
+      "seqno": 5351291
+    },
+    "revoke": {
+      "sig_ids": [
+        "ca8f7ea9742bfd5d3001365b078761bc9febd0d68ce7933b0a188a16027125e40f"
+      ]
+    },
+    "service": {
+      "hostname": "nevexo.space",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1557614705,
+  "expire_in": 157680000,
+  "prev": "7cbb5c7baaf19e641d465f957fe0f8d96cfe5215ab43e1021f258b68992a4b94",
+  "seqno": 77,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMLeAnicbVNbaB1FGD5JaqXRYkOfilphq2Lh0MzMzvVYpMFLbYk2YtNWG3Oc256z
+nMue7G5OLiUvgUJBkARaQaqSF/WhhnqhYLVpY4kNGIggYqUI0VryUAsFrYJK1dmD
+RQruPiz7z/d9/zff/LOwviPX2bZz/4tH/1y5NN+2dD4dzg1c7Bs65KnIjHmFQ17F
+tj62amySFiuh8QoegAhQCABUFEMgqLTa+IApX2EMJAPUCgSARpxhK5jBjBHIDPCR
+IoHhSEHMLZBe3gvCesnGjTisp05WU0WNkVQQpSmCwhppEIUUM8KIFDhQJjBSA0cs
+R0nGcOaUTOy2MHI191Ns2fsf/C3f7hUESYR9IlkQyMBgSaTyscCcQqm48n1jicba
+hwr6jDPn1SguDeMcOgJv+R5uyWlkOfEVY9xXPhASY8WwbzAR2Di0yICJjeuyZh26
+bpt2NPIm8l7NxpWqLcZRlGbR6jTMAJAQRiGmHLvtyaRcrNlUOp4FQgkNFLISU4sg
+N9oGWgXSAooxJNrHWmjsaj6jQnMhA40hdAEAQrnUzkVih+qRVyA+gUhA5yC2zahi
+s+ZJWHKhJV7hoKclD5iVgmGkAkPciQLoU6KAS4FCpUVglQGGcm2Z8H0FJORcQgoQ
+g4hYDALvpYmsWdwMdUs8O6Xbdr8taUi3lPcacZRGOqq6lXKaNpJClks61sigI1YV
+/xUpqrBu3Iw4RtPGSRjVXU4OeXtkDJC8Z0cbYWyLYYZwVQ7ck/WxTSfJtFJEMyVl
+4MbKDa3BlASCsMCCgBtBdWAJcpkp7FsIEAwQ4YpyIZDESuD/MmTM+ZQlp+mSq8t0
+OLbexPn5gTW5ts7c2jvas8uT61y34daVujJ+59/P7li8vHXvnrt7Bis39bqu9p7e
+fR83Nx6f++bImx2rc2c+XRzdbLZHb8188u79F1cWBk/fe3n6XI/6YVm9seaFZe/k
+lskbr31wbLY4dWX3lo3j0fULfxx/unfsQLP7w+d3rfw09HDb3M7+t2+O3DfyxYl8
+b2Pm8Clx48hfi++/c7ave7b6xOCrF35e+mXvvurJvj2fo/Xm0fZ6xzPnVla3ly9V
+i488cM/U6791/X7w18MnvjvbP711oDRZW33yx89Kdy0fDTvHCwOF5YUvzffV4fIm
+uNljPd++t2PDzOnaQ49H/d1fs4++ennquavXHlt6arJU282bjbVzp64282fs7Cvh
+g13Tu7qPTVyb33T9HwZkggk=
+=nghB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nevexo
+
+==================================================================
