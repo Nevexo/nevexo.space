@@ -1,32 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Nevexo | Encryption</title>
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
-    </head>
-
-    <!-- Heading -->
-    <div id="welcome">
-        <a href='/'>Homepage</a>
-        <h1 class="heading">Securely Contacting Me</h1>
-        <!-- Subheading -->
-        <h3 class="subheading">Below you'll find a few ways to securely <br>
-        contact me.</h3>
-    </div>
-
-    <div id="information">
-        <p>If you need to sign or encrypt, the best way is using my keys available on <a href='//keybase.io/nevexo'>keybase.io/nevexo</a></p>
-        <p>You can also use my Keybase keys to verify any signed messages I send.</p>
-        <p>These keys are valid until 24/01/2021</p>
-        <br>
-        <p>You can also contact me on Telegram, <a href='//t.me/nevexo'>@Nevexo</a></p>
-        <p>And add me to OpenSSH servers with my <a href='ssh/'>SSH Key.</a></p>
-        <br>
-        <p id='section-header'>Current OpenPGP Key</p>
-        <br>
-        <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User-ID:	Cameron Fleming <cameron@nevexo.space>
+Comment: a.k.a.:	Cameron Fleming <nevexo@outlook.com>
+Comment: Created:	24/01/2019 16:30
+Comment: Expires:	24/01/2021 12:00
+Comment: Type:	2048-bit RSA (secret key available)
+Comment: Usage:	Signing, Encryption, Certifying User-IDs
+Comment: Fingerprint:	C6B6DDA695BC6219EDAD261647575A94FBDFDAC0
+
 
 mQENBFxJ6CgBCADBUM+rSXIGpEv/YRWAxetVXiEbR2p1dwbrcu/D7ZN5SntH6lDJ
 IUXT2UKqcIFIhIs8NfdDHy0D1byPsZBE/s+P1xYeuYVVuffkgXCb6DKu0esk2O0H
@@ -64,13 +44,3 @@ B3BXwcBVLQhHytf2uGZRs/uGeNSzb5esZG4clbvsHPsmrTOW58bcf/FnNhFdSwkW
 IktPdCVE2QucmmoxmF5NqgFigq3iBOUXET6IGIO6nZggCSfo+sVokaLlmw==
 =xY4q
 -----END PGP PUBLIC KEY BLOCK-----
-        </pre>
-        <p><b>Fingerprint:</b> C6B6DDA695BC6219EDAD261647575A94FBDFDAC0</p>
-        <a href='//nevexo.space/.well-known/pgp.txt'>well-known version</a>
-    </div>
-
-    <div class='footer'>
-        <p>While I'll try to keep this page up-to-date, it's always best to see my Keybase account for my latest encryption keys.</p>
-    </div>
-
-</html>
