@@ -9,6 +9,7 @@
 .active {background-color: #4CAF50;}
 .in-development {background-color: #2196F3;} 
 .retired {background-color: #ff9800;} 
+.college {background-color: #7289DA;} 
 
 .project {
     margin-top: 2em;
