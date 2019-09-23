@@ -51,3 +51,12 @@ a {
     margin-top: 2em;
     color: rgb(121, 121, 121);
 }
+
+.top-bar {
+    background-color: rgb(66, 66, 66);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 3vh;
+}
