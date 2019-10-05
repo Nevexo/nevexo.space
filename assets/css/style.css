@@ -31,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+.footer a {
+    color: rgb(54, 121, 209);
+}
+
 #information {
     margin-top: 30px;
 }
