@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nevexo | Project Interlink</title>
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link href="../assets/css/projects.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- Heading -->
+    <div id="welcome">
+        <a href='/'>Homepage</a>
+        <h1 class="heading">Project Interlink</h1>
+        <!-- Subheading -->
+        <h3 class="subheading">A site-to-site VPN network made because <i>why not?</i></h3>
+    </div>
+
+    <div id="information">
+        <p>Project Interlink was originally created to solve a problem my <a href="https://willwilson.space">friend</a> and I had,</p>
+        <p>whenever we wanted to work on/learn something, we'd have to open ports in firewalls or settle with screen share.</p>
+        <p>Project Interlink was created to create a permanent, but isolated, lab network between each of our home networks.</p>
+        <br>
+        <p class='section-header'>Project Features</p>
+        <p>Project Interlink uses the <a href="https://vyos.io">VyOS router</a> software stack, a fork of Vyatta.</p>
+        <p>OSPF Announces the various routes each member has, see below.</p>
+        <p><a href="https://wireguard.com">WireGuard</a> provides a constant, secure & quiet connection between the routers, as well as offering peering.</p>
+        <p>SNMP Provides real-time monitoring for the network.</p>
+        <br>
+        <br>
+        <p class='section-header'>Projects active on Interlink</p>
+        <div class='project'>
+            <h3>Network 69 <span class="label active">Active</span> <span class="label in-development">OSPF Announcer: 1.1.1.2</span></h3>
+            <p>
+                Network 69 (192.168.69.0/24) is my side of Interlink, the network exists on my local VyOS router, and it's routes<br>
+                are announced to other peers on Interlink.<br><br>
+
+                Currently, N69 has a <a href="https://gns3.com">GNS3</a> server.
+            </p>
+        </div>
+        <div class='project'>
+            <h3>Network 70 <span class="label active">Active</span> <span class="label in-development">OSPF Announcer: 1.1.1.1</span></h3>
+            <p>
+                Network 70 (192.168.70.0/24) is owned by <a href="https://willwilson.space">Will Wilson</a>, the network exists on his VyOS router,<br>
+                and it's routes are announced to other peers on Interlink.<br><br>
+
+                Currently, N70 runs various web-based video streaming experiments.
+            </p>
+        </div>
+        <br><br>
+        <p class='section-header'>Members & Router IDs</p>
+        <p>As Project Interlink uses OSPF, each member has a Router ID, the following is a list of members & their RIDs.</p>
+        <br>
+        <p>Nevexo - 1.1.1.2</p>
+        <p>Will Wilson - 1.1.1.1</p>
+        <pre>
+
+        </pre>
+        <p><b>Fingerprint:</b> C6B6DDA695BC6219EDAD261647575A94FBDFDAC0</p>
+        <a href='//nevexo.space/.well-known/pgp.txt'>well-known version</a>
+    </div>
+
+    <div class='footer'>
+        <p>Information on joining Interlink may be available in the future.</p>
+    </div>
+
+</html>
