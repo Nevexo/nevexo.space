@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 body {
     margin-top: 30px;
     margin-left: 50px;
@@ -7,6 +9,10 @@ body {
     color: white;
 }
 
+#content {
+    padding-top: 30px;
+}
+
 * {
     margin: 0.5px;
 }
@@ -14,6 +20,11 @@ body {
 h1 {
     font-weight: 500;
     font-size: 2.5em;
+}
+
+h2 {
+    font-weight: 600;
+    padding-top: 20px;
 }
 
 h3 {
@@ -31,24 +42,12 @@ a {
     text-decoration: none;
 }
 
-.footer a {
-    color: rgb(54, 121, 209);
-}
-
-#information {
-    margin-top: 30px;
-}
-
-#contact {
-    margin-top: 20px;
-}
-
-.section-heading {
-    font-weight: 600;
-}
-
 .footer {
     margin-top: 2em;
     margin-bottom: 2em;
     color: rgb(121, 121, 121);
+}
+
+.footer a {
+    color: rgb(54, 121, 209);
 }
