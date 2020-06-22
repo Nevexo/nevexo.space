@@ -14,14 +14,13 @@ The tmw.media API is a closed-source (for now) node.js micro-service based API u
 [GGRadio.net](https://ggradio.net). It interacts with [Icecast](https://www.icecast.org/) to pull now-playing information
 and exposes to over a RESTful API, for example [/ggradio/aggregates](https://api.tmw.media/v4.1/ggradio/aggregates)
 
-## Mixer Retweet (RetweetX) <span class="label active">Active</span>
-RetweetX is a node.js based Twitter bot with a rule system. It's mainly used for 
+## Mixer Retweet (RetweetX) <span class="label retired">Retired</span>
+~~RetweetX is a node.js based Twitter bot with a rule system. It's mainly used for 
 [Mixer Retweet](https://twitter.com/mixerretweet), a Twitter account I co-own that's used for promoting people's
-[Mixer](https://mixer.com) live streams. 
+[Mixer](https://mixer.com) live streams. ~~
 
-RetweetX implements a control API (with dashboard), a rule engine, queuing system & insight tracking.
-
-I plan to release an open-source version of RetweetX in the near future.
+Mixer has decided to shutdown, thus, the Mixer Retweet project has been retired.
+RetweetX will no longer be mainted, at least for the foreseeable future.
 
 ## Radio Show Text-in Platform <span class="label in-development">In Development</span>
 During the [George Greenaway](https://www.facebook.com/TheGeorgeGreenawayShow/?ref=aymt_homepage_panel&eid=ARBpjaWC8sElfztJObZAB6F4hKmRHL9Y6J-coNtqXMPuXoBFhvCbbcC72MT0LimJqt5_9fsaVwZqAGiE) 24 & 48 hour shows I built
