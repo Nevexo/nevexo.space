@@ -9,18 +9,27 @@ link: <a href="/">Home</a>
 I often write software for [tmw.media](https://tmw.media), some of these projects are from college & university
 & the rest are just personal projects.
 
+## ecksClone Visual Studio Code Theme <span class="label active">Active</span>
+ecksClone is an Xcode-style editor/syntax theme for Visual Studio Code that [Jack-JB](https://jburrows.tech)
+and I design & maintain. 
+
+[View the source](https://github.com/nevexo/ecksclone)
+
+[Get the theme](https://marketplace.visualstudio.com/items?itemName=NevexoJack-JB.ecksclone)
+
 ## tmw.media API <span class="label active">Active</span>
 The tmw.media API is a closed-source (for now) node.js micro-service based API used primarily for our internet radio,
 [GGRadio.net](https://ggradio.net). It interacts with [Icecast](https://www.icecast.org/) to pull now-playing information
 and exposes to over a RESTful API, for example [/ggradio/aggregates](https://api.tmw.media/v4.1/ggradio/aggregates)
 
 ## Mixer Retweet (RetweetX) <span class="label retired">Retired</span>
-~~RetweetX is a node.js based Twitter bot with a rule system. It's mainly used for 
+RetweetX is a node.js based Twitter bot with a rule system. It's mainly used for 
 [Mixer Retweet](https://twitter.com/mixerretweet), a Twitter account I co-own that's used for promoting people's
-[Mixer](https://mixer.com) live streams. ~~
+[Mixer](https://mixer.com) live streams. 
 
-Mixer has decided to shutdown, thus, the Mixer Retweet project has been retired.
-RetweetX will no longer be mainted, at least for the foreseeable future.
+Update:
+As Mixer.com is closing down, this project has been retired. The [source code is now on GitHub](https://github.com/nevexo/retweetx)
+but won't be maintained, at least not in the foreseeable future.
 
 ## Radio Show Text-in Platform <span class="label in-development">In Development</span>
 During the [George Greenaway](https://www.facebook.com/TheGeorgeGreenawayShow/?ref=aymt_homepage_panel&eid=ARBpjaWC8sElfztJObZAB6F4hKmRHL9Y6J-coNtqXMPuXoBFhvCbbcC72MT0LimJqt5_9fsaVwZqAGiE) 24 & 48 hour shows I built
