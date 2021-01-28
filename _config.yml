@@ -21,7 +21,7 @@
 title: Nevexo's Homepage
 email: cameron@nevexo.space
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey, I'm Cameron, a Compuet Networks student from Lancashire, United Kingdom.
+  Hey, I'm Cameron, a Computer Networks student from Cumbria, United Kingdom.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _nevexo_
