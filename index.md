@@ -29,5 +29,13 @@ LinkedIn: [Cameron Fleming](https://linkedin.com/in/nevexo)
 
 [Keys n' Things](/encryption)
 
+## Blog Posts
+Not a clue why I decided to add a blog, but here's a list of my posts:<br/>
+
+{% for post in site.posts %}
+
+{{ post.date | date_to_long_string }} - <a href="{{ post.url }}">{{ post.title }}</a>
+
+{% endfor %}
 
 <p class="footer">Built using Jekyll, <a href="https://github.com/nevexo/nevexo.space">view the source.</a></p>
