@@ -86,7 +86,7 @@ But wait, that's a private IP, surely TalkTalk are just going to reject that? We
 
 ![NAT settings on my MikroTik Router](https://i.imgur.com/qP9BJzf.png)
 
-This is a "masquerade" rule, which is listenong on the "LAN" network and will catch any packet destined for the "WAN" (internet) network. 
+This is a "masquerade" rule, which is listening on the "LAN" network and will catch any packet destined for the "WAN" (internet) network. 
 
 
 NAT will now strip the private IP out of the source header of the packet, and drop the router's public IP back in there. 

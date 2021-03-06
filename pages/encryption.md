@@ -6,8 +6,10 @@ permalink: /encryption/
 link: <a href="/">Home</a>
 ---
 
-## SSH (RSA)
+## SSH (ED25519)
 The latest version of my key will always be available on [GitHub](https://github.com/nevexo.keys)
+
+The current 'main' key is: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMwzjUQflPE2bn9VQvNvCnvBD2Ww0wdaam67PTt/NdV8`
 
 ## PGP/GPG
 Fingerprint: `C6B6DDA695BC6219EDAD261647575A94FBDFDAC0`
