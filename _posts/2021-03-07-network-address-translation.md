@@ -32,6 +32,7 @@ Chances are, your internet service provider don't even support IPv6, [find out h
 
 Okay so, we've run out of IPv4 addresses - what can we do about that?
 
+
 ## Part 2: Private IP Address Space
 
 You might've realised many home IP addresses start with `192.168.1.X` - how can that be? Surely overlapping IPs would cause an issue when
@@ -53,6 +54,7 @@ the outside, so it won't be possible regardless.
 
 
 So now your desktop has a private IP address of `192.168.1.2` - but wait, that's not routable to the internet, so how does your computer get on the internet??
+
 
 ## Part 3: Oh, Finally, NAT.
 
@@ -124,6 +126,7 @@ a packet is sent via NAT until the timer expires or the connection is closed.
 
 Done! That's NAT - and the reason that 'port forwarding' exists, but that's a topic for another day, hey, we're not all running Minecraft servers from home.
 
+
 ## Part 4: Pitfalls
 
 > “Nothing is more permanent than a temporary solution."
@@ -146,10 +149,12 @@ It takes CPU power to run NAT, swapping the IPs out of packets for everything de
 
 This slows down your network. 
 
+
 ### IP Banning
 
 Some services, stupidly, still employ "IP banning" from services. The worst effect on this is a CG-NAT'd network, if Bobby down the street gets IP banned
 from [super popular Minecraft server], Sally 3 doors down can't get on to do some hardcore skywars, oh dear.
+
 
 ### Dynamic IP Addresses
 
