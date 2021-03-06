@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cameron Fleming
-subheading: Hey, I'm Cameron, a Computer Networks Student<br />currently living in Lancashire, United Kingdom.
+subheading: Hey, I'm Cameron, a Computer Networks Student<br/>living in Cumbria, United Kingdom.
 ---
 
 As well as networking, I also enjoy writing rather-bodgy software, you can find these on my 
@@ -9,11 +9,6 @@ As well as networking, I also enjoy writing rather-bodgy software, you can find 
 
 
 You can also view a list of my active/retired projects on my [projects page.](/projects)
-
-## Networks
-DN42: [AS4242421690](/networks/dn42)
-
-Internet: One day, one day.
 
 ## Get in Touch
 
@@ -27,10 +22,10 @@ Telegram: [@Nevexo](https://t.me/nevexo)
 
 LinkedIn: [Cameron Fleming](https://linkedin.com/in/nevexo)
 
-[Keys n' Things](/encryption)
+[Keychain](/encryption)
 
 ## Blog Posts
-Not a clue why I decided to add a blog, but here's a list of my posts:<br/>
+Random blog posts/tutorials: <br/>
 
 {% for post in site.posts %}
 
